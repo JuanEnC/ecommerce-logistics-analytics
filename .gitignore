@@ -1,0 +1,15 @@
+# Entornos virtuales y dependencias
+venv/
+__pycache__/
+
+# Archivos de datos (Crudos y procesados)
+data/raw/*.csv
+data/processed/*.parquet
+
+# Permitir la subida de las carpetas vacias para mantener la arquitectura
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Archivos temporales de Jupyter y VS Code
+.ipynb_checkpoints/
+.vscode/
