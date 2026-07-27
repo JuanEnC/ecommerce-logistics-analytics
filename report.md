@@ -12,13 +12,13 @@ El **objetivo principal** de este diagnóstico es identificar los cuellos de bot
 
 ### A. Tendencia Longitudinal de la Demanda
 
-![Gráfico de linea: Tendencia Histórica de Pedidos Procesados](./graphs/line_chart_trend.png)
+![Gráfico de linea: Tendencia Histórica de Pedidos Procesados](src/graphs/line_chart_trend.png)
 
 El análisis histórico muestra un crecimiento sostenido de las operaciones comerciales durante 2017, alcanzando un pico máximo de transacciones en noviembre (impulsado por eventos macroeconómicos como el *Black Friday*). Sin embargo, durante 2018, la curva de crecimiento se aplanó, mostrando una ligera tendencia a la baja hacia el final del periodo de captura de datos. Esta estandarización de la demanda sugiere una transición de una fase de hipercrecimiento a una de madurez, donde la retención de clientes mediante un servicio logístico impecable se vuelve crítica.
 
 ### B. Estacionalidad y Ciclos de Venta
 
-![Gráfico de barras: Estacionalidad Agregada: Volumen de Pedidos por Mes](./graphs/bar_chart_seasonality.png)
+![Gráfico de barras: Estacionalidad Agregada: Volumen de Pedidos por Mes](src/graphs/bar_chart_seasonality.png)
 
 La agregación de la volumetría por meses revela una fuerte estacionalidad. Los meses de mayor carga operativa son mayo, julio y agosto. Esta concentración exige una planificación de capacidad (*Capacity Planning*) dinámica, ya que mantener una infraestructura logística plana durante todo el año genera sobrecostos en temporada baja y saturación de la red de transporte en temporada alta.
 
@@ -26,7 +26,7 @@ La agregación de la volumetría por meses revela una fuerte estacionalidad. Los
 
 ## 3. Diagnóstico de Fricción Logística por Región
 
-![Gráfico de barras horizontal: Top 10 Estados con Mayor Retraso Promedio de Entrega](./graphs/hbar_chart_state_delay.png)
+![Gráfico de barras horizontal: Top 10 Estados con Mayor Retraso Promedio de Entrega](src/graphs/hbar_chart_state_delay.png)
 
 La segmentación del rendimiento de entrega por estado expone un patrón geográfico crítico que devalúa la experiencia del cliente. Los estados con mayores demoras respecto a la fecha estimada de entrega son:
 
@@ -40,7 +40,7 @@ Existe una correlación directa con la Región Norte de Brasil, una zona geográ
 
 ## 4. Análisis de Causas Raíz (Principio de Pareto)
 
-![Diagrama de Pareto: Concentración de Quejas Logísticas por Categoría](./graphs/pareto_chart.png)
+![Diagrama de Pareto: Concentración de Quejas Logísticas por Categoría](src/graphs/pareto_chart.png)
 
 Al cruzar los datos de envíos retrasados con las calificaciones negativas de los clientes (puntuaciones 1 y 2), la distribución no es uniforme.
 
