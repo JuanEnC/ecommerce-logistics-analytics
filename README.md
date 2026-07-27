@@ -1,5 +1,6 @@
 # Logistics Optimization Analytics
 
+![Kaggle](https://road-to-kaggle-grandmaster.vercel.app/api/simple/{juanclopezdec})
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Manipulation-150458?style=flat-square&logo=pandas)
 ![Plotly](https://img.shields.io/badge/Plotly-Data_Visualization-3F4F75?style=flat-square&logo=plotly)
@@ -88,6 +89,7 @@ El código de este repositorio alimenta de manera directa las conclusiones ejecu
 
 * [Reporte Ejecutivo de Optimización Logística y Experiencia del Cliente](report.md)
 
+* [Interactive Notebook available on Kaggle](https://www.kaggle.com/code/juanclopezdec/logistics-bottleneck-diagnosis-olist-e-commerce)
 ---
 
 ## Autores
