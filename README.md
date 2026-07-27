@@ -86,7 +86,7 @@ graph TD
 
 El código de este repositorio alimenta de manera directa las conclusiones ejecutivas. Para consultar la interpretación de negocio de estos datos, los hallazgos detallados, los gráficos resultantes y las recomendaciones estratégicas propuestas a nivel corporativo, consulte el documento anexo:
 
-* [Reporte Ejecutivo de Optimización Logística y Experiencia del Cliente](src/report.md)
+* [Reporte Ejecutivo de Optimización Logística y Experiencia del Cliente](report.md)
 
 ---
 
